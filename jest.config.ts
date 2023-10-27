@@ -1,9 +1,9 @@
-module.exports = {
+export default {
   preset: "ts-jest",
   testEnvironment: "jsdom",
   setupFilesAfterEnv: ["<rootDir>/support/setupTests.ts"],
   testMatch: ["<rootDir>/src/**/*.(test|spec).(ts|tsx)"],
-  // testPathIgnorePatterns: ["<rootDir>/tests/e2e/"],
+  testPathIgnorePatterns: ["<rootDir>/tests/e2e/"],
   transform: {
     "^.+\\.svg$": "jest-transform-stub",
     "^.+\\.(js|jsx|ts|tsx)$": "ts-jest",

@@ -22,6 +22,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and
           safdsafdsfdsfsdfdsfsdfdsfdsafsdfdsfadsadfdsafdsfdsve to test HMR.
+          asfasfasfasfasfasf
         </p>
 
         <p>
