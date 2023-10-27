@@ -2,12 +2,14 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended",
+    "plugin:jest/recommended",
   ],
   overrides: [
     {
@@ -25,7 +27,7 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "react", "prettier"],
+  plugins: ["@typescript-eslint", "react", "prettier", "jest"],
   rules: {
     "react/react-in-jsx-scope": "off",
   },
